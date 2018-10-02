@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "shape=north_south": { "model": "miscrails:3d_rail_crossing" },
+        "shape=east_west": { "model": "miscrails:3d_rail_crossing", "y": 90 }
+    }
+}

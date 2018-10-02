@@ -1,0 +1,20 @@
+{
+	"__comment": "Designed by CreatorLabs with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"dark": "#dark",
+		"light": "#light",
+		"particle": "#dark"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 7.0003, 0.0005, 0.0002 ],
+			"to": [ 9.0003, 16.0005, 7.0002 ],
+			"faces": {
+				"west": { "uv": [ 0.5, 0, 7, 16 ], "texture": "#light" },
+				"east": { "uv": [ 9, 0, 15.5, 16 ], "texture": "#light" },
+				"down": { "texture": "#light" },
+				"up": { "texture": "#light" }
+			}
+		}
+	]
+}

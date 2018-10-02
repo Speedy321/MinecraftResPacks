@@ -1,0 +1,101 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-item",
+        "model": "rail_flat",
+        "textures": {
+			"0": "3d_transportation/3d_rail_wood",
+			"1_1": "3d_transportation/3d_rail_wood",
+			"particle": "3d_transportation/3d_rail_wood_dark",
+			"1_2": "3d_transportation/3d_rail_wood_dark",
+			"rail": "extrarails:blocks/wooden_rail/normal"
+		}
+    },
+    "variants": {
+        "shape": {
+            "north_south": {},
+            "east_west": { "y": 90 },
+            "ascending_east": {
+				"model": "rail_raised_ne",
+				"textures": {
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood",
+					"1_0": "3d_transportation/3d_rail_wood"
+				},
+				"y": 90
+			},
+			"ascending_west": {
+				"model":  "rail_raised_sw",
+				"textures": {
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood",
+					"1_0": "3d_transportation/3d_rail_wood"
+				},
+				"y": 90
+			},
+			"ascending_north": {
+				"model": "rail_raised_ne",
+				"textures": {
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood",
+					"1_0": "3d_transportation/3d_rail_wood"
+				}
+			},
+			"ascending_south": {
+				"model": "rail_raised_sw",
+				"textures": {
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood",
+					"1_0": "3d_transportation/3d_rail_wood"
+				}
+			},
+			"south_east": {
+				"model": "rail_curved",
+				"textures": {
+					"0": "3d_transportation/3d_rail_wood",
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood_dark",
+					"rail": "extrarails:blocks/wooden_rail/curved"
+				}
+			},
+			"south_west": {
+				"model": "rail_curved",
+				"textures": {
+					"0": "3d_transportation/3d_rail_wood",
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood_dark",
+					"rail": "extrarails:blocks/wooden_rail/curved"
+				},
+				"y": 90
+			},
+			"north_west": {
+				"model": "rail_curved",
+				"textures": {
+					"0": "3d_transportation/3d_rail_wood",
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood_dark",
+					"rail": "extrarails:blocks/wooden_rail/curved"
+				},
+				"y": 180
+			},
+			"north_east": {
+				"model": "rail_curved",
+				"textures": {
+					"0": "3d_transportation/3d_rail_wood",
+					"1": "3d_transportation/3d_rail_wood",
+					"2": "3d_transportation/3d_rail_wood_dark",
+					"particle": "3d_transportation/3d_rail_wood_dark",
+					"rail": "extrarails:blocks/wooden_rail/curved"
+				},
+				"y": 270
+			}
+        }
+    }
+}

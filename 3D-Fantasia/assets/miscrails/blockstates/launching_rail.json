@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "powered=false,shape=north_south":  { "model": "miscrails:3d_launcher_rail" },
+        "powered=false,shape=east_west":  { "model": "miscrails:3d_launcher_rail", "y": 90 },
+
+        "powered=true,shape=north_south":  { "model": "miscrails:3d_launcher_rail",
+		"textures": {
+			"2": "3d_transportation/3d_rail_redstone_active"
+		} },
+        "powered=true,shape=east_west":  { "model": "miscrails:3d_launcher_rail", "y": 90,
+		"textures": {
+			"2": "3d_transportation/3d_rail_redstone_active"
+		} }
+    }
+}

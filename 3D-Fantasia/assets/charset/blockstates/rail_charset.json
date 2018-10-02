@@ -1,0 +1,27 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "rail": "charset:blocks/rail_cross"
+    },
+    "model": "charset:3d_rail_crossing"
+  },
+  "variants": {
+    "normal": [{}],
+    "direction": {
+      "north_south": {},
+      "east_west": {},
+      "north_west": {},
+      "north_east": {},
+      "south_west": {},
+      "south_east": {}
+    },
+    "inventory": [{
+      "model": "forge:item-layer",
+      "transform": "forge:default-item",
+      "textures": {
+        "layer0": "charset:blocks/rail_cross"
+      }
+    }]
+  }
+}

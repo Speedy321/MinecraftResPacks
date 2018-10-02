@@ -1,0 +1,38 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "extrarails:3d_locking_rail"
+	},
+	"variants": {
+		"shape": {
+			"north_south": {},
+			"east_west": {}
+		},
+		"facing": {
+			"north": {},
+			"south": {
+				"y": 180
+			},
+			"west": {
+				"y": -90
+			},
+			"east": {
+				"y": 90
+			}
+		},
+		"powered": {
+			"true": {
+				"textures": {
+					"1": "3d_transportation/3d_rail_redstone_activated",
+					"rail": "extrarails:blocks/locking_rail/active"
+				}
+			},
+			"false": {
+				"textures": {
+					"1": "3d_transportation/3d_rail_redstone",
+					"rail": "extrarails:blocks/locking_rail/inactive"
+				}
+			}
+		}
+	}
+}
